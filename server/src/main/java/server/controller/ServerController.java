@@ -21,6 +21,8 @@ public class ServerController {
         return "Server Service";
     }
 
+    //奚耀国
+    //1.根据type获取music
     @CrossOrigin(origins = "*")
     @RequestMapping(value="/musicservice/music/getmusic/{type}", method = RequestMethod.GET)
     public ArrayList<MusicInfo> doGetMusicGet(@PathVariable String type){
@@ -29,6 +31,8 @@ public class ServerController {
 
     }
 
+    //奚耀国
+    //2.根据语音交互获取music
     @CrossOrigin(origins = "*")
     @RequestMapping(value="/musicservice/music/getmusic", method = RequestMethod.POST)
     public ArrayList<MusicInfo> doGetMusicPost(@RequestBody GetMusicInfo info){
@@ -37,7 +41,8 @@ public class ServerController {
 
     }
 
-
+    //奚耀国
+    //3.与用户交互进行风格迁移
     @CrossOrigin(origins = "*")
     @RequestMapping(value="/musicservice/music/interact", method = RequestMethod.POST)
     public InteractResult doInteractcPost(@RequestBody GetMusicInfo info){
@@ -46,6 +51,7 @@ public class ServerController {
 
     }
 
+    //孙若宇
     //1、根据用户语音输入生成歌曲，前台输入数据为用户语音，发送后台数据为{path: " paht/to/voice/wav"}，
     // 接收数据为歌曲列表{[name: "song's name", addr: "path/to/song"],[name: "song's name", addr: "path/to/song"]}；
     @CrossOrigin(origins = "*")
@@ -63,13 +69,12 @@ public class ServerController {
                 out.close();
 
 
-
+                //上传后文件的绝对路径（在docker文件系统中的绝对路径）
                 String newFileAbsolutePath = newFile.getAbsolutePath();
                 System.out.println(" === File Absolute Path:" + newFileAbsolutePath);
 
 
 
-                //文件已写入 进行后续操作
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
                 return null;
@@ -77,6 +82,10 @@ public class ServerController {
                 e.printStackTrace();
                 return null;
             }
+
+
+
+            //mock data
             MusicInfo info1 = new MusicInfo("rock", "jichao-test-info-one");
             MusicInfo info2 = new MusicInfo("jazz", "jichao-test-info-two");
 
@@ -90,7 +99,7 @@ public class ServerController {
         }
     }
 
-
+    //孙若宇
     //2、根据用户手动输入生成歌曲，前台输入数据为用户手动输入，发送后台数据为{kind: "song's kind"}，接收数据同1；1
     @CrossOrigin(origins = "*")
     @RequestMapping(value = "/yufan/manuallyGenSongs", method = RequestMethod.POST)
@@ -101,6 +110,7 @@ public class ServerController {
 
     }
 
+    //孙若宇
     //3.风格迁移，前台输入数据为用户语音，发送后台数据同1，接收数据为{code: 1/2, path: path/to/voice/or/song}，
     // 当返回为1时path为语音数据，返回为2是为音乐数据；
     @CrossOrigin(origins = "*")
@@ -120,7 +130,8 @@ public class ServerController {
                 out.close();
 
 
-                
+
+                //上传后文件的绝对路径（在docker文件系统中的绝对路径）
                 String newFileAbsolutePath = newFile.getAbsolutePath();
                 System.out.println(" === File Absolute Path:" + newFileAbsolutePath);
 
@@ -134,13 +145,19 @@ public class ServerController {
                 e.printStackTrace();
                 return null;
             }
-            return null;
+
+
+            //mock data
+            TypeAndSound result = new TypeAndSound(0,"asdasdsa");
+            return result;
+
         } else {
             return null;
         }
 
     }
 
+    //孙若宇
     //4、风格迁移，前台输入数据为用户手动输入，发送后台数据同2，接收数据同3
     @CrossOrigin(origins = "*")
     @RequestMapping(value = "/yufan/manullyConvertSongsStyle", method = RequestMethod.POST)
@@ -150,6 +167,9 @@ public class ServerController {
         return service.manuallyConvertSongsStyle(songKind);
     }
 
+
+
+    //测试用的
     @CrossOrigin(origins = "*")
     @RequestMapping(value = "/yufan/upload", method = RequestMethod.POST)
     @ResponseBody
@@ -171,8 +191,10 @@ public class ServerController {
                 out.flush();
                 out.close();
 
+
+                //上传后文件的绝对路径（在docker文件系统中的绝对路径）
                 System.out.println(" === File Absolute Path:" + newFile.getAbsolutePath());
-                //文件已写入 进行后续操作
+
 
 
 

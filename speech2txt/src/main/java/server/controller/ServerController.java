@@ -12,6 +12,9 @@ public class ServerController {
         return "Speech2Txt Service";
     }
 
+
+    //奚耀国
+    //4.通过文本生成语音文件
     @CrossOrigin(origins = "*")
     @RequestMapping(value="/musicservice/music/saveaudio", method = RequestMethod.POST)
     public Boolean doGetMusicGet(@RequestBody SpeechInfo info){

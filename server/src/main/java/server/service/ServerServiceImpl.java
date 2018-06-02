@@ -38,7 +38,33 @@ public class ServerServiceImpl implements ServerService{
     public ArrayList<MusicInfo> getMusicGet(String type) {
 
         System.out.println("Type:" + type);
+        type = type.toLowerCase();
 
+        switch(type){
+            case "rock" :
+                //语句
+                break; //可选
+            case "metal":
+                //语句
+                break; //可选
+            case "hiphop" :
+                //语句
+                break; //可选
+            case "pop" :
+                //语句
+                break; //可选
+            case "jazz" :
+                //语句
+                break; //可选
+            case "classic" :
+                //语句
+                break; //可选
+            default : //可选
+                //语句
+        }
+
+
+        //mock data
         MusicInfo info1 = new MusicInfo("rock", "jichao-test-info-one");
         MusicInfo info2 = new MusicInfo("jazz", "jichao-test-info-two");
 

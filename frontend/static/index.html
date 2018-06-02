@@ -62,12 +62,12 @@
         <!-- <input type="button" value="获取录音" onclick="obtainRecord()"/>   -->
         <button type="button" class="btn btn-link btn-block swing1" onclick="stopRecord()">I've done</button>  
         <input type="button" class="shake1" value="播放录音" onclick="playRecord(url)"/>
-            <label>Classical</label><input id='a1' type='radio' value='Classical' name='test1'  />
-            <label>Hipop</label><input id='a2' type='radio' value='Hipop' name='test2'  />
-            <label>Jass</label><input id='a3' type='radio' value='Jass' name='test3'  />
-            <label>Metal</label><input id='a4' type='radio' value='Metal' name='test4'  />
-            <label>Pop</label><input id='a5' type='radio' value='Pop' name='test5'  />
-            <label>Rock</label><input id='a6' type='radio' value='Rock' name='test6'  />
+            <label>Classical</label><input id='a1' type='radio' value='Classical' name='Classical'  />
+            <label>Hipop</label><input id='a2' type='radio' value='Hipop' name='Hipop'  />
+            <label>Jass</label><input id='a3' type='radio' value='Jass' name='Jass'  />
+            <label>Metal</label><input id='a4' type='radio' value='Metal' name='Metal'  />
+            <label>Pop</label><input id='a5' type='radio' value='Pop' name='Pop'  />
+            <label>Rock</label><input id='a6' type='radio' value='Rock' name='Rock'  />
         </span>
       </div>
       <!-- banner text --> 
@@ -1309,7 +1309,7 @@ function obtainRecord(){
 
 function stopRecord(){  
     recorder.stop(); 
-    recorder.upload_once();
+    recorder.upload();
 };  
    
 function callback(state, e){
@@ -1340,52 +1340,32 @@ var kind_user_want = "Classical";
 //<![CDATA[
 $(document).ready(function(){
 
-    $('input[type=radio][name=bedStatus]').change(function() {
-        if (this.value === 'Classical') {
-            kind_user_want = "Classical";
-            upload_manual();
-        }
-        else if (this.value == 'Hipop') {
-            kind_user_want = "Hipop";
-            upload_manual();
-        }
-        else if (this.value == 'Jazz') {
-            kind_user_want = "Jazz";
-            upload_manual();
-        }
-        else if (this.value == 'Metal') {
-            kind_user_want = "Metal";
-            upload_manual();
-        }
-        else if (this.value == 'Pop') {
-            kind_user_want = "Pop";
-            upload_manual();
-
-        }
-        else if (this.value == 'Rock') {
-            kind_user_want = "Rock";
-            upload_manual();
-        }
-
+    $('input[name=Classical]').on('click', function() {
+        kind_user_want = $(this).val();
+        upload_manual();
+        alert(kind_user_want);
     });
 
     function upload_manual() {
-        var fd = new FormData();
-        fd.append('kind', kind_user_want);
+        var dataObj = new Object();
+        dataObj.kind = kind_user_want;
+        var data = JSON.stringify(dataObj);
         $.ajax({
             url:"http://10.141.212.21:14567/yufan/manuallyGenSongs",
             type: "post",
-            cache:false,
-            processData: false,
-            contentType: false,
-            data:fd,
+            contentType: "application/json",
+            dataType: "json",
+            data:data,
+            xhrFields: {
+                withCredentials: true
+            },
             error: function (xhr, status, errorThrow) {
                 console.log("Error:", errorThrow);
                 console.log("Status", status);
                 console.log(xhr);
             },
-            success: function() {
-
+            success: function(obj) {
+                aler(JSON.stringify(obj))
 
                 // for(int i = 0; i < 10; i+=2){
                 //     var[] name = json[i];
