@@ -30,9 +30,9 @@ services:
       - /opt/hackdata:/hackdata
     networks:
       - my-network
-  fudanse:
-    build: fudanse
-    image: ts/fudanse
+  frontend:
+    build: frontend
+    image: ts/frontend
     restart: always
     ports:
       - 80:8080

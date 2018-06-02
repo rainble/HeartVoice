@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../HeartVoice/.idea/HeartVoice.iml" filepath="$PROJECT_DIR$/../HeartVoice/.idea/HeartVoice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sjtuservice.iml" filepath="$PROJECT_DIR$/sjtuservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speech2txt/speech2txt.iml" filepath="$PROJECT_DIR$/speech2txt/speech2txt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txt2speech/txt2speech.iml" filepath="$PROJECT_DIR$/txt2speech/txt2speech.iml" />
     </modules>
   </component>
 </project>

@@ -51,9 +51,7 @@ public class ServerController {
     @CrossOrigin(origins = "*")
     @RequestMapping(value = "/yufan/autoGenSongs", method = RequestMethod.POST)
     @ResponseBody
-    public ArrayList<MusicInfo> autoGenSongs(@RequestParam("file") MultipartFile file,
-                                             @RequestParam("path") String path){
-        System.out.println("===== Uploaded File Path = " + path + " =====");
+    public ArrayList<MusicInfo> autoGenSongs(@RequestParam("file") MultipartFile file){
 
         if (!file.isEmpty()) {
             try {
@@ -95,9 +93,9 @@ public class ServerController {
     @CrossOrigin(origins = "*")
     @RequestMapping(value = "/yufan/autoConvertSongsStyle", method = RequestMethod.POST)
     @ResponseBody
-    public TypeAndSound convertSongsStyle(@RequestParam("file") MultipartFile file,
-                                          @RequestParam("path") String path){
-        System.out.println("===== Uploaded File Path = " + path + " =====");
+    public TypeAndSound convertSongsStyle(@RequestParam("file") MultipartFile file){
+
+
 
         if (!file.isEmpty()) {
             try {

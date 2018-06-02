@@ -148,8 +148,7 @@
   
         //上传  
         this.upload_once = function () {
-            var fd = new FormData();  
-            fd.append('audioData', this.getBlob());  
+            var fd = new FormData();
             // var xhr = new XMLHttpRequest();  
             // if (callback) {  
             //     xhr.upload.addEventListener('progress', function (e) {  
@@ -170,19 +169,20 @@
  
             // xhr.send(fd);  
             $.ajax({
-                        url:"http://10.131.252.141/home/inspur/Documents/hackx_upload/",
+                        url:"/yufan/autoGenSongs",
                         type: "post",
                         cache:false,
                         processData: false,
                         contentType: false,
-                        headers:{"Authorization":"Basic aW5zcHVyOmluc3B1cg=="},
                         data:fd,
                         error: function (xhr, status, errorThrow) {
                             console.log("Error:", errorThrow);
                             console.log("Status", status);
                             console.log(xhr);
                         },
-                        success: function() {
+                        success: function(obj) {
+
+                            alert(JSON.stringify(obj));
                             // for(int i = 0; i < 10; i+=2){
                             //     var[] name = json[i];
                             //     var[] path = json[i+1];
@@ -194,29 +194,30 @@
         };
 
         this.upload = function () {
-            var fd = new FormData();
-            fd.append('audioData', this.getBlob());
+            var fd = new FormData(this.getBlob());
             $.ajax({
-                url:"http://10.131.252.141/home/inspur/Documents/hackx_upload/",
+                url:"/yufan/autoConvertSongsStyle",
                 type: "post",
                 cache:false,
                 processData: false,
                 contentType: false,
-                headers:{"Authorization":"Basic aW5zcHVyOmluc3B1cg=="},
                 data:fd,
                 error: function (xhr, status, errorThrow) {
                     console.log("Error:", errorThrow);
                     console.log("Status", status);
                     console.log(xhr);
                 },
-                success: function() {
-                    if (json[0][code] == 1)
+                success: function(obj) {
+
+                    alert(JSON.stringify(obj));
+
+                    if (obj[0][code] == 1)
                     {
-                        document.getElementById("ai_feedback").setAttribute("src", json[1][addr]);
+                        document.getElementById("ai_feedback").setAttribute("src", obj[1][addr]);
                         var audio = document.querySelector('audio');
                         audio.play();
                     }
-                    else if (json[0][code] == 2)
+                    else if (obj[0][code] == 2)
                     {
                         // for(int i = 0; i < 10; i+=2){
                         //     var[] name = json[i];
