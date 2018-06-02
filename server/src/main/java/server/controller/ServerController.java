@@ -62,7 +62,13 @@ public class ServerController {
                 out.flush();
                 out.close();
 
-                System.out.println(" === File Absolute Path:" + newFile.getAbsolutePath());
+
+
+                String newFileAbsolutePath = newFile.getAbsolutePath();
+                System.out.println(" === File Absolute Path:" + newFileAbsolutePath);
+
+
+
                 //文件已写入 进行后续操作
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
@@ -113,7 +119,13 @@ public class ServerController {
                 out.flush();
                 out.close();
 
-                System.out.println(" === File Absolute Path:" + newFile.getAbsolutePath());
+
+                
+                String newFileAbsolutePath = newFile.getAbsolutePath();
+                System.out.println(" === File Absolute Path:" + newFileAbsolutePath);
+
+
+
                 //文件已写入 进行后续操作
             } catch (FileNotFoundException e) {
                 e.printStackTrace();

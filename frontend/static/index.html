@@ -1373,12 +1373,11 @@ $(document).ready(function(){
         var fd = new FormData();
         fd.append('kind', kind_user_want);
         $.ajax({
-            url:"/yufan/manuallyGenSongs",
+            url:"http://10.141.212.21:14567/yufan/manuallyGenSongs",
             type: "post",
             cache:false,
             processData: false,
             contentType: false,
-            headers:{"Authorization":"Basic aW5zcHVyOmluc3B1cg=="},
             data:fd,
             error: function (xhr, status, errorThrow) {
                 console.log("Error:", errorThrow);
