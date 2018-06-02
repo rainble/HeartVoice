@@ -16,4 +16,6 @@ public interface ServerService {
 
     TypeAndSound manuallyConvertSongsStyle(String songKind);
 
+    ArrayList<MusicInfo> getMus();
+
 }

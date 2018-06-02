@@ -107,22 +107,7 @@ public class ServerController {
                 return null;
             }
 
-
-
-            //mock data
-            MusicInfo info1 = new MusicInfo("output_9.mp3", "output_9.mp3");
-            MusicInfo info2 = new MusicInfo("output_57.mp3", "output_57.mp3");
-            MusicInfo info3 = new MusicInfo("output_42.mp3", "output_42.mp3");
-            MusicInfo info4 = new MusicInfo("output_18.mp3", "output_18.mp3");
-            MusicInfo info5 = new MusicInfo("output_37.mp3", "output_37.mp3");
-
-            ArrayList<MusicInfo> infos = new ArrayList<>();
-            infos.add(info1);
-            infos.add(info2);
-            infos.add(info3);
-            infos.add(info4);
-            infos.add(info5);
-
+            ArrayList<MusicInfo> infos = service.getMus();
 
             return infos;
         } else {

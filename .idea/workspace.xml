@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ae2218a-adc7-4b96-83e8-5ed73220f0af" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/txt2speech/src/main/java/server/domain/Music.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/txt2speech/src/main/java/server/service/MusicService(1).java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/server/controller/ServerController.java" afterPath="$PROJECT_DIR$/server/src/main/java/server/controller/ServerController.java" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/service/ServerService.java" afterPath="$PROJECT_DIR$/server/src/main/java/server/service/ServerService.java" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/server/service/ServerServiceImpl.java" afterPath="$PROJECT_DIR$/server/src/main/java/server/service/ServerServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/txt2speech/pom.xml" afterPath="$PROJECT_DIR$/txt2speech/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/txt2speech/txt2speech.iml" afterPath="$PROJECT_DIR$/txt2speech/txt2speech.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/speech2txt/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,20 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServerServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/server/service/ServerServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="104" column="25" lean-forward="false" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -81,8 +74,12 @@
         <option value="$PROJECT_DIR$/txt2speech/src/main/java/server/controller/ServerController.java" />
         <option value="$PROJECT_DIR$/speech2txt/pom.xml" />
         <option value="$PROJECT_DIR$/speech2txt/src/main/java/server/controller/ServerController.java" />
+        <option value="$PROJECT_DIR$/txt2speech/pom.xml" />
+        <option value="$PROJECT_DIR$/txt2speech/src/main/java/server/domain/Music.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/server/service/ServerService.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/server/controller/ServerController.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/server/service/ServerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/txt2speech/src/main/java/server/service/MusicService(1).java" />
       </list>
     </option>
   </component>
@@ -181,19 +178,31 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sjtuservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeartVoice" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sjtuservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeartVoice" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sjtuservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="HeartVoice" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sjtuservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HeartVoice" type="462c0819:PsiDirectoryNode" />
               <item name="speech2txt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,7 +316,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,6 +335,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Users\chaoj\Documents\GitHub\HeartVoice\txt2speech\src\main\java\server\service" />
+      <recent name="F:\Users\chaoj\Documents\GitHub\HeartVoice\txt2speech\src\main\java\server\domain" />
       <recent name="F:\Users\chaoj\Documents\GitHub\HeartVoice\server\src\main\java\server\domain" />
       <recent name="F:\Users\chaoj\Documents\GitHub\HeartVoice\frontEnd" />
     </key>
@@ -513,16 +524,15 @@
       <updated>1527947980233</updated>
       <workItem from="1527947983845" duration="9191000" />
       <workItem from="1527957514474" duration="5692000" />
-      <workItem from="1527964318772" duration="271000" />
+      <workItem from="1527964318772" duration="2417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15154000" />
+    <option name="totallyTimeSpent" value="17300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -545,7 +555,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -567,7 +577,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -577,6 +589,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2190#2217#0" expanded="false" />
+            <element signature="method#autoGenSongs#0;class#ServerController#0" expanded="false" />
+            <element signature="method#manuallyGenSongs#0;class#ServerController#0" expanded="false" />
+            <element signature="e#4287#4314#0" expanded="false" />
+            <element signature="method#convertSongsStyle#0;class#ServerController#0" expanded="false" />
+            <element signature="e#5582#5609#0" expanded="false" />
+            <element signature="method#convertSongsStyle#1;class#ServerController#0" expanded="false" />
+            <element signature="e#5900#5927#0" expanded="false" />
+            <element signature="method#upload#0;class#ServerController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -595,6 +616,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2190#2217#0" expanded="false" />
+            <element signature="method#autoGenSongs#0;class#ServerController#0" expanded="false" />
+            <element signature="method#manuallyGenSongs#0;class#ServerController#0" expanded="false" />
+            <element signature="e#4287#4314#0" expanded="false" />
+            <element signature="method#convertSongsStyle#0;class#ServerController#0" expanded="false" />
+            <element signature="e#5582#5609#0" expanded="false" />
+            <element signature="method#convertSongsStyle#1;class#ServerController#0" expanded="false" />
+            <element signature="e#5900#5927#0" expanded="false" />
+            <element signature="method#upload#0;class#ServerController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -653,13 +683,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/service/ServerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -684,6 +708,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="1355" column="44" lean-forward="false" selection-start-line="1355" selection-start-column="44" selection-end-line="1355" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -691,6 +716,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -705,6 +731,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -720,6 +747,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,6 +762,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -768,20 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/txt2speech/src/main/java/server/controller/ServerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/speech2txt/src/main/java/server/controller/ServerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/txt2speech/src/main/java/server/domain/Txt2SpeechResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -790,23 +805,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/txt2speech/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt2speech/src/main/java/server/domain/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speech2txt/src/main/java/server/controller/ServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-338">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt2speech/src/main/java/server/controller/ServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/domain/GetMusicInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/domain/MusicInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/service/ServerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/server/controller/ServerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1688">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="123" selection-end-column="29" />
+        <state relative-caret-position="1287">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2190#2217#0" expanded="false" />
+            <element signature="method#autoGenSongs#0;class#ServerController#0" expanded="false" />
+            <element signature="method#manuallyGenSongs#0;class#ServerController#0" expanded="false" />
+            <element signature="e#4287#4314#0" expanded="false" />
+            <element signature="method#convertSongsStyle#0;class#ServerController#0" expanded="false" />
+            <element signature="e#5582#5609#0" expanded="false" />
+            <element signature="method#convertSongsStyle#1;class#ServerController#0" expanded="false" />
+            <element signature="e#5900#5927#0" expanded="false" />
+            <element signature="method#upload#0;class#ServerController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/server/service/ServerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="25" lean-forward="false" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+        <state relative-caret-position="546">
+          <caret line="77" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt2speech/src/main/java/server/service/MusicService(1).java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
