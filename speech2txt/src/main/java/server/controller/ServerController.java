@@ -13,6 +13,7 @@ import java.io.OutputStream;
 @RestController
 public class ServerController {
 
+
     @CrossOrigin(origins = "*")
     @RequestMapping(value="/test",method= RequestMethod.GET)
     public String create(){

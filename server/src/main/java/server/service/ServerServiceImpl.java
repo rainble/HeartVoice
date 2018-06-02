@@ -135,6 +135,8 @@ public class ServerServiceImpl implements ServerService{
     }
 
     public ArrayList<MusicInfo> getMus() {
+
+        init();
         ArrayList<MusicInfo> mus = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             int rand = new Random().nextInt(ms.size());

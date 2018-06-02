@@ -10,3 +10,5 @@ An AI music system.
 执行 docker-compose up
 在浏览器输入10.141.212.21:14567/test测试服务
 三个服务的端口分别为14567 14568 14569
+
+一台新的主机需要安装maven docker与docker-compose环境才可执行命令

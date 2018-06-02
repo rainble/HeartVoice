@@ -20,12 +20,14 @@ public class ServerController {
     @Autowired
     private RestTemplate restTemplate;
 
+    //测试服务是否启动
     @CrossOrigin(origins = "*")
     @RequestMapping(value="/test",method= RequestMethod.GET)
     public String create(){
         return "Server Service";
     }
 
+    //获取音乐连接
     @RequestMapping(value = "/download/{filename}", method = RequestMethod.GET)
     public Resource downloadTxt2(@PathVariable String filename) {
 
