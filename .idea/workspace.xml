@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="deb379aa-6234-4226-95ad-482384bf6288" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/.idea/.name" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/.idea/HeartVoice.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/README 2.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/bundle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/animate.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/flexslider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/font-icon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/jquery.fancybox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/responsive.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/style.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/theplayer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/css/theplayer.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/dsg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/dtb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/elegant-theme-line.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/elegant-theme-line.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/elegant-theme-line.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/elegant-theme-line.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/flexslider-icon.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/flexslider-icon.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/flexslider-icon.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/flexslider-icon.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/fontawesome-webfont-ie.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/audiofabric-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/audiofabric.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/fancybox_loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/fancybox_loading@2x.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/fancybox_overlay.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/fancybox_sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/fancybox_sprite@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/pic2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/portfolio/01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/portfolio/02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/portfolio/03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/portfolio/04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/portfolio/05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/portfolio/06.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/portfolio/07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/portfolio/08.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/team--1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/team--2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/team-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/team-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/team-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/images/team-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/index 2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/index 3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/index4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/add-on/jplayer.playlist.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/add-on/jplayer.playlist.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/add-on/jquery.jplayer.inspector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/add-on/jquery.jplayer.inspector.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/popcorn/popcorn.jplayer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/popcorn/popcorn.jplayer.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/css/jplayer.blue.monday.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/css/jplayer.blue.monday.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/image/jplayer.blue.monday.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/image/jplayer.blue.monday.seeking.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/image/jplayer.blue.monday.video.play.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.audio.single.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.audio.stream.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.video.playlist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.video.single.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/css/jplayer.pink.flag.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/css/jplayer.pink.flag.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/image/jplayer.pink.flag.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/image/jplayer.pink.flag.seeking.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/image/jplayer.pink.flag.video.play.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.audio.playlist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.audio.single.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.audio.stream.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.video.playlist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.video.single.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/aurora/aac.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/aurora/aurora.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/aurora/flac.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/aurora/mp3.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/aurora/ogg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/aurora/opus.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/aurora/vorbis.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/circle-player/js/circle.player.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/circle-player/js/jquery.grab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/circle-player/js/jquery.transform2d.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/circle-player/js/mod.csstransforms.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/bgr.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/buffer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/circle.player.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/controls.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/progress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/progress_sprite.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/popcorn.ie8.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/popcorn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/popcorn.player.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/lib/popcorn.subtitle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/actionscript/Jplayer.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/ConnectManager.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerEvent.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerMp3.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerMp4.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerRtmp.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerStatus.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/javascript/add-on/.jshintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/javascript/add-on/jplayer.playlist.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/javascript/add-on/jquery.jplayer.inspector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/javascript/jplayer/.jshintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/javascript/jplayer/jquery.jplayer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/javascript/popcorn/.jshintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/javascript/popcorn/popcorn.jplayer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/image/jplayer.blue.monday.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/image/jplayer.blue.monday.seeking.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/image/jplayer.blue.monday.video.play.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.audio.single.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.audio.stream.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.video.playlist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.video.single.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/scss/jplayer.blue.monday.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/image/jplayer.pink.flag.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/image/jplayer.pink.flag.seeking.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/image/jplayer.pink.flag.video.play.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.audio.playlist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.audio.single.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.audio.stream.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.video.playlist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.video.single.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/scss/jplayer.pink.flag.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/OrbitControls-2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/index.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/jquery.contact.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/jquery.fancybox.pack.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/jquery.flexslider-min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/kuxuantexiao.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/modernizr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/radio_check.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/record.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/retina.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/rythm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/speaktotext.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/spin.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/theplayer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/theplayer.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/js/three.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/mc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/me163.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/music/1.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/audio-controls.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/audio/715-creeks.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/audio/adagio-for-strings.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/audio/another-new-world.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/audio/lost-it-to-trying.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/audio/the-wilder-sun.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/camera.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/fonts/OpenSans-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/fonts/OpenSans-Bold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/fonts/OpenSans-Bold.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/fonts/OpenSans-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/fonts/OpenSans-Regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/fonts/OpenSans-Regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/render-bloom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/render-blur.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/render-grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/src/title-card.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/tdr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/video/audiofabric.mov" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/vr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HeartVoice/frontEnd/yarn.lock" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../HeartVoice/frontEnd/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../HeartVoice" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/moban1346/js/radio_check.js" />
+        <option value="$PROJECT_DIR$/moban1346/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1332" />
+    <option name="y" value="-201" />
+    <option name="width" value="1806" />
+    <option name="height" value="1002" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HeartVoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeartVoice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeartVoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeartVoice" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="deb379aa-6234-4226-95ad-482384bf6288" name="Default" comment="" />
+      <created>1527942314355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527942314355</updated>
+      <workItem from="1527942317951" duration="2592000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2592000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1280" y="-201" width="1920" height="1057" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1640625" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../HeartVoice/moban1346/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12866">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HeartVoice/moban1346/js/record.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HeartVoice/moban1346/js/rythm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HeartVoice/moban1346/js/radio_check.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HeartVoice/moban1346/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="40" column="60" lean-forward="false" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HeartVoice/frontEnd/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
