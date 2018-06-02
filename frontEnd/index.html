@@ -62,12 +62,12 @@
         <!-- <input type="button" value="获取录音" onclick="obtainRecord()"/>   -->
         <button type="button" class="btn btn-link btn-block swing1" onclick="stopRecord()">I've done</button>  
         <input type="button" class="shake1" value="播放录音" onclick="playRecord(url)"/>
-            <label>A1</label><input id='a1' type='radio' value='1' name='test1'  />
-            <label>A1</label><input id='a2' type='radio' value='2' name='test2'  />
-            <label>A1</label><input id='a3' type='radio' value='3' name='test3'  />
-            <label>A1</label><input id='a4' type='radio' value='4' name='test4'  />
-            <label>A1</label><input id='a5' type='radio' value='5' name='test5'  />
-            <label>A1</label><input id='a6' type='radio' value='6' name='test6'  />
+            <label>Classical</label><input id='a1' type='radio' value='Classical' name='test1'  />
+            <label>Hipop</label><input id='a2' type='radio' value='Hipop' name='test2'  />
+            <label>Jass</label><input id='a3' type='radio' value='Jass' name='test3'  />
+            <label>Metal</label><input id='a4' type='radio' value='Metal' name='test4'  />
+            <label>Pop</label><input id='a5' type='radio' value='Pop' name='test5'  />
+            <label>Rock</label><input id='a6' type='radio' value='Rock' name='test6'  />
         </span>
       </div>
       <!-- banner text --> 
@@ -1335,10 +1335,33 @@ function playRecord(url){
 
 };  
 
+var kind_user_want = "Classical";
 
 //<![CDATA[
 $(document).ready(function(){
- 
+
+    $('input[type=radio][name=bedStatus]').change(function() {
+        if (this.value === 'Classical') {
+            kind_user_want = "Classical";
+        }
+        else if (this.value == 'Hipop') {
+            kind_user_want = "Hipop";
+        }
+        else if (this.value == 'Jass') {
+            kind_user_want = "Jass";
+        }
+        else if (this.value == 'Metal') {
+            kind_user_want = "Metal";
+        }
+        else if (this.value == 'Pop') {
+            kind_user_want = "Pop";
+        }
+        else if (this.value == 'Rock') {
+            kind_user_want = "Rock";
+        }
+
+    });
+
 	new jPlayerPlaylist({
 		jPlayer: "#jquery_jplayer_2",
 		cssSelectorAncestor: "#jp_container_2"
