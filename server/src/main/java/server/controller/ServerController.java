@@ -2,10 +2,10 @@ package server.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.web.multipart.MultipartFile;
 import server.domain.*;
 import server.service.ServerService;
-
 import java.io.*;
 import java.util.ArrayList;
 
@@ -15,6 +15,9 @@ public class ServerController {
     @Autowired
     private ServerService service;
 
+    @Autowired
+    private RestTemplate restTemplate;
+
     @CrossOrigin(origins = "*")
     @RequestMapping(value="/test",method= RequestMethod.GET)
     public String create(){
@@ -23,6 +26,7 @@ public class ServerController {
 
     //奚耀国
     //1.根据type获取music
+    //ArrayList<MusicInfo>是返回给客户端的json数据
     @CrossOrigin(origins = "*")
     @RequestMapping(value="/musicservice/music/getmusic/{type}", method = RequestMethod.GET)
     public ArrayList<MusicInfo> doGetMusicGet(@PathVariable String type){
@@ -33,6 +37,7 @@ public class ServerController {
 
     //奚耀国
     //2.根据语音交互获取music
+    //info是从body中获取到的json对象
     @CrossOrigin(origins = "*")
     @RequestMapping(value="/musicservice/music/getmusic", method = RequestMethod.POST)
     public ArrayList<MusicInfo> doGetMusicPost(@RequestBody GetMusicInfo info){
@@ -72,6 +77,15 @@ public class ServerController {
                 //上传后文件的绝对路径（在docker文件系统中的绝对路径）
                 String newFileAbsolutePath = newFile.getAbsolutePath();
                 System.out.println(" === File Absolute Path:" + newFileAbsolutePath);
+
+
+                //打包数据调用---奚耀国的语音文件生成文本接口
+                Txt2SpeechInfo info = new Txt2SpeechInfo(newFileAbsolutePath);
+                Txt2SpeechResult result = restTemplate.postForObject("http://txt2speech:14569/musicservice/music/gettext",
+                        info,Txt2SpeechResult.class);
+                //result是语音文件生成文本接口的返回数据
+                System.out.println("[调用语音文件生成文本接口]" + result.getText());
+
 
 
 

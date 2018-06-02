@@ -2,14 +2,11 @@ package server.service;
 
 import org.springframework.stereotype.Service;
 import server.domain.*;
-
 import java.util.ArrayList;
-import java.util.UUID;
 
 @Service
 public class ServerServiceImpl implements ServerService{
 
-    private ArrayList<SongInfo> songInfos = new ArrayList<>();
 
     public TypeAndSound manuallyConvertSongsStyle(String songKind){
 
