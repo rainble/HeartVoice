@@ -1,6 +1,8 @@
 package server.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.FileSystemResource;
+import org.springframework.core.io.Resource;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.multipart.MultipartFile;
@@ -22,6 +24,14 @@ public class ServerController {
     @RequestMapping(value="/test",method= RequestMethod.GET)
     public String create(){
         return "Server Service";
+    }
+
+    @RequestMapping(value = "/download/{filename}", method = RequestMethod.GET)
+    public Resource downloadTxt2(@PathVariable String filename) {
+
+        System.out.println("FileName === " + filename + ".mp3");
+
+        return new FileSystemResource("/hackdata/music/" + filename  + ".mp3");
     }
 
     //奚耀国
@@ -100,8 +110,8 @@ public class ServerController {
 
 
             //mock data
-            MusicInfo info1 = new MusicInfo("rock", "jichao-test-info-one");
-            MusicInfo info2 = new MusicInfo("jazz", "jichao-test-info-two");
+            MusicInfo info1 = new MusicInfo("LateLove.mp3", "LateLove.mp3");
+            MusicInfo info2 = new MusicInfo("redbean.mp3", "LateLove.mp3");
 
             ArrayList<MusicInfo> infos = new ArrayList<>();
             infos.add(info1);

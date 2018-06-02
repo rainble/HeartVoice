@@ -21,8 +21,9 @@ public class ServerServiceImpl implements ServerService{
 
         System.out.println("Kind:" + songKind);
 
-        MusicInfo info1 = new MusicInfo("rock", "jichao-test-info-one");
-        MusicInfo info2 = new MusicInfo("jazz", "jichao-test-info-two");
+        MusicInfo info1 = new MusicInfo("LateLove.mp3", "LateLove.mp3");
+        MusicInfo info2 = new MusicInfo("redbean.mp3", "LateLove.mp3");
+
 
         ArrayList<MusicInfo> infos = new ArrayList<>();
         infos.add(info1);
@@ -62,8 +63,9 @@ public class ServerServiceImpl implements ServerService{
 
 
         //mock data
-        MusicInfo info1 = new MusicInfo("rock", "jichao-test-info-one");
-        MusicInfo info2 = new MusicInfo("jazz", "jichao-test-info-two");
+        MusicInfo info1 = new MusicInfo("LateLove.mp3", "LateLove.mp3");
+        MusicInfo info2 = new MusicInfo("redbean.mp3", "LateLove.mp3");
+
 
         ArrayList<MusicInfo> infos = new ArrayList<>();
         infos.add(info1);
@@ -78,8 +80,9 @@ public class ServerServiceImpl implements ServerService{
         System.out.println("Path:" + path);
 
 
-        MusicInfo info1 = new MusicInfo("rock", "jichao-test-info-one");
-        MusicInfo info2 = new MusicInfo("jazz", "jichao-test-info-two");
+        MusicInfo info1 = new MusicInfo("LateLove.mp3", "LateLove.mp3");
+        MusicInfo info2 = new MusicInfo("redbean.mp3", "LateLove.mp3");
+
 
         ArrayList<MusicInfo> infos = new ArrayList<>();
         infos.add(info1);
