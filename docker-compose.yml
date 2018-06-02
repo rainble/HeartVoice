@@ -30,14 +30,14 @@ services:
       - /opt/hackdata:/hackdata
     networks:
       - my-network
-  frontend:
-    build: frontend
-    image: ts/frontend
-    restart: always
-    ports:
-      - 80:8080
-    networks:
-       - my-network
+#  frontend:
+#    build: frontend
+#    image: ts/frontend
+#    restart: always
+#    ports:
+#      - 80:8080
+#    networks:
+#       - my-network
 
 networks:
   my-network:

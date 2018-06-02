@@ -149,6 +149,7 @@
         //上传  
         this.upload_once = function () {
             var fd = new FormData();
+            fd.append("file",this.getBlob())
             // var xhr = new XMLHttpRequest();  
             // if (callback) {  
             //     xhr.upload.addEventListener('progress', function (e) {  
@@ -169,7 +170,7 @@
  
             // xhr.send(fd);  
             $.ajax({
-                        url:"/yufan/autoGenSongs",
+                        url:"http://10.141.212.21:14567/yufan/autoGenSongs",
                         type: "post",
                         cache:false,
                         processData: false,
@@ -194,9 +195,10 @@
         };
 
         this.upload = function () {
-            var fd = new FormData(this.getBlob());
+            var fd = new FormData();
+            fd.append("file",this.getBlob())
             $.ajax({
-                url:"/yufan/autoConvertSongsStyle",
+                url:"http://10.141.212.21:14567/yufan/autoConvertSongsStyle",
                 type: "post",
                 cache:false,
                 processData: false,
@@ -260,10 +262,10 @@
         };  
   
     };  
-    //抛出异常  
-    HZRecorder.throwError = function (message) {  
-        throw new function () { this.toString = function () { return message; };};  
-    };  
+    //抛出异常
+    HZRecorder.throwError = function (message) {
+        throw new function () { this.toString = function () { return message; };};
+    };
     //是否支持录音  
     HZRecorder.canRecording = (navigator.getUserMedia != null);  
     //获取录音机  

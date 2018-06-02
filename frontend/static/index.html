@@ -1343,21 +1343,28 @@ $(document).ready(function(){
     $('input[type=radio][name=bedStatus]').change(function() {
         if (this.value === 'Classical') {
             kind_user_want = "Classical";
+            upload_manual();
         }
         else if (this.value == 'Hipop') {
             kind_user_want = "Hipop";
+            upload_manual();
         }
-        else if (this.value == 'Jass') {
-            kind_user_want = "Jass";
+        else if (this.value == 'Jazz') {
+            kind_user_want = "Jazz";
+            upload_manual();
         }
         else if (this.value == 'Metal') {
             kind_user_want = "Metal";
+            upload_manual();
         }
         else if (this.value == 'Pop') {
             kind_user_want = "Pop";
+            upload_manual();
+
         }
         else if (this.value == 'Rock') {
             kind_user_want = "Rock";
+            upload_manual();
         }
 
     });
@@ -1366,7 +1373,7 @@ $(document).ready(function(){
         var fd = new FormData();
         fd.append('kind', kind_user_want);
         $.ajax({
-            url:"http://10.131.252.141/home/inspur/Documents/hackx_upload/",
+            url:"/yufan/manuallyGenSongs",
             type: "post",
             cache:false,
             processData: false,

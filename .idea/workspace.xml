@@ -2,214 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ae2218a-adc7-4b96-83e8-5ed73220f0af" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/nginx.conf" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="$PROJECT_DIR$/.idea/HeartVoice.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/README 2.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/animate.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/flexslider.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/font-icon.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/jquery.fancybox.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/responsive.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/style.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/theplayer.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/css/theplayer.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/dsg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/dtb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/favicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/elegant-theme-line.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/elegant-theme-line.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/elegant-theme-line.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/elegant-theme-line.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/flexslider-icon.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/flexslider-icon.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/flexslider-icon.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/flexslider-icon.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/fontawesome-webfont-ie.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/audiofabric-2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/audiofabric.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/banner.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/blank.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/fancybox_loading.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/fancybox_loading@2x.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/fancybox_overlay.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/fancybox_sprite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/fancybox_sprite@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/pic2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/portfolio/01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/portfolio/02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/portfolio/03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/portfolio/04.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/portfolio/05.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/portfolio/06.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/portfolio/07.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/portfolio/08.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/team--1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/team--2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/team-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/team-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/team-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/images/team-4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/index 2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/index 3.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/index4.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/add-on/jplayer.playlist.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/add-on/jplayer.playlist.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/add-on/jquery.jplayer.inspector.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/add-on/jquery.jplayer.inspector.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.swf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/popcorn/popcorn.jplayer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/popcorn/popcorn.jplayer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/css/jplayer.blue.monday.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/css/jplayer.blue.monday.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/image/jplayer.blue.monday.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/image/jplayer.blue.monday.seeking.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/image/jplayer.blue.monday.video.play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.audio.single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.audio.stream.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.video.playlist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/blue.monday/mustache/jplayer.blue.monday.video.single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/css/jplayer.pink.flag.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/css/jplayer.pink.flag.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/image/jplayer.pink.flag.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/image/jplayer.pink.flag.seeking.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/image/jplayer.pink.flag.video.play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.audio.playlist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.audio.single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.audio.stream.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.video.playlist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/dist/skin/pink.flag/mustache/jplayer.pink.flag.video.single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/aurora/aac.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/aurora/aurora.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/aurora/flac.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/aurora/mp3.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/aurora/ogg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/aurora/opus.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/aurora/vorbis.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/circle-player/js/circle.player.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/circle-player/js/jquery.grab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/circle-player/js/jquery.transform2d.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/circle-player/js/mod.csstransforms.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/bgr.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/buffer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/circle.player.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/controls.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/progress.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/circle-player/skin/progress_sprite.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/popcorn.ie8.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/popcorn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/popcorn.player.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/lib/popcorn.subtitle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/actionscript/Jplayer.as" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/ConnectManager.as" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerEvent.as" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerMp3.as" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerMp4.as" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerRtmp.as" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/actionscript/happyworm/jPlayer/JplayerStatus.as" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/javascript/add-on/.jshintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/javascript/add-on/jplayer.playlist.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/javascript/add-on/jquery.jplayer.inspector.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/javascript/jplayer/.jshintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/javascript/jplayer/jquery.jplayer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/javascript/popcorn/.jshintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/javascript/popcorn/popcorn.jplayer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/image/jplayer.blue.monday.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/image/jplayer.blue.monday.seeking.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/image/jplayer.blue.monday.video.play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.audio.playlist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.audio.single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.audio.stream.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.video.playlist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/mustache/jplayer.blue.monday.video.single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/blue.monday/scss/jplayer.blue.monday.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/image/jplayer.pink.flag.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/image/jplayer.pink.flag.seeking.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/image/jplayer.pink.flag.video.play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.audio.playlist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.audio.single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.audio.stream.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.video.playlist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/mustache/jplayer.pink.flag.video.single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/jPlayer-2.9.2/src/skin/pink.flag/scss/jplayer.pink.flag.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/OrbitControls-2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/index.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/jquery.contact.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/jquery.fancybox.pack.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/jquery.flexslider-min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/kuxuantexiao.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/modernizr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/radio_check.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/record.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/retina.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/rythm.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/speaktotext.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/spin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/theplayer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/theplayer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/js/three.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/mc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/me163.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/music/1.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/audio-controls.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/audio/715-creeks.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/audio/adagio-for-strings.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/audio/another-new-world.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/audio/lost-it-to-trying.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/audio/the-wilder-sun.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/camera.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/fonts/OpenSans-Bold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/fonts/OpenSans-Bold.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/fonts/OpenSans-Bold.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/fonts/OpenSans-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/fonts/OpenSans-Regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/fonts/OpenSans-Regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/render-bloom.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/render-blur.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/render-grid.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/src/title-card.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/tdr.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/video/audiofabric.mov" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/vr.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontEnd/yarn.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/server.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/index.html" afterPath="$PROJECT_DIR$/frontend/static/index.html" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/record.js" afterPath="$PROJECT_DIR$/frontend/static/js/record.js" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/server/controller/ServerController.java" afterPath="$PROJECT_DIR$/server/src/main/java/server/controller/ServerController.java" />
-      <change beforePath="$PROJECT_DIR$/speech2txt/speech2txt.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/txt2speech/txt2speech.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/speech2txt/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -224,11 +21,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="record.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/static/js/record.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="198" column="39" lean-forward="true" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/server/controller/ServerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="80" column="25" lean-forward="false" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/server/service/ServerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/server/ServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="1390" column="11" lean-forward="false" selection-start-line="1390" selection-start-column="11" selection-end-line="1390" selection-end-column="11" />
+            <state relative-caret-position="-59">
+              <caret line="131" column="48" lean-forward="true" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -243,6 +100,10 @@
       <find>fd</find>
       <find>record.js</find>
       <find>startRecording()</find>
+      <find>upload_manual</find>
+      <find>change</find>
+      <find>HZRecorder.throwError</find>
+      <find>ew FormData</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -263,11 +124,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/frontEnd/nginx.conf" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/frontend/nginx.conf" />
-        <option value="$PROJECT_DIR$/server/src/main/java/server/controller/ServerController.java" />
-        <option value="$PROJECT_DIR$/frontend/static/js/record.js" />
         <option value="$PROJECT_DIR$/frontend/static/index.html" />
+        <option value="$PROJECT_DIR$/frontend/static/js/record.js" />
+        <option value="$PROJECT_DIR$/server/src/main/java/server/controller/ServerController.java" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -277,7 +139,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="29" />
     <option name="y" value="271" />
     <option name="width" value="697" />
@@ -312,6 +174,19 @@
               <item name="sjtuservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="HeartVoice" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sjtuservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeartVoice" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sjtuservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeartVoice" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sjtuservice" type="b2602c69:ProjectViewProjectNode" />
@@ -375,6 +250,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sjtuservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeartVoice" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sjtuservice" type="b2602c69:ProjectViewProjectNode" />
@@ -583,15 +468,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527947980233</updated>
-      <workItem from="1527947983845" duration="3115000" />
+      <workItem from="1527947983845" duration="4719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3115000" />
+    <option name="totallyTimeSpent" value="4719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -657,14 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -689,42 +566,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/fudanse/static/js/fileUpload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/static/js/record.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3451">
-          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fudanse/static/js/fileUpload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/controller/ServerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="880">
+          <caret line="198" column="39" lean-forward="true" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="1390" column="11" lean-forward="false" selection-start-line="1390" selection-start-column="11" selection-end-line="1390" selection-end-column="11" />
+        <state relative-caret-position="-59">
+          <caret line="131" column="48" lean-forward="true" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/service/ServerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/ServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/server/controller/ServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="80" column="25" lean-forward="false" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

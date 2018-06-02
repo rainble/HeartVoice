@@ -9,11 +9,5 @@ spring:
     multipart:
       maxFileSize: 20Mb
       maxRequestSize: 20Mb
-  data:
-    mongodb:
-      host: server-mongo
-#      username: user
-#      password: ${MONGODB_PASSWORD}
-      database: ts
-      port: 27017
+
 

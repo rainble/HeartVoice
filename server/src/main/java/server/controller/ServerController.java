@@ -55,7 +55,7 @@ public class ServerController {
 
         if (!file.isEmpty()) {
             try {
-                File newFile = new File("/hackdata/" + file.getOriginalFilename());
+                File newFile = new File("/hackdata/" + file.getOriginalFilename() + ".wav");
                 BufferedOutputStream out = new BufferedOutputStream(
                         new FileOutputStream(newFile));
                 out.write(file.getBytes());
@@ -71,7 +71,14 @@ public class ServerController {
                 e.printStackTrace();
                 return null;
             }
-            return null;
+            MusicInfo info1 = new MusicInfo("rock", "jichao-test-info-one");
+            MusicInfo info2 = new MusicInfo("jazz", "jichao-test-info-two");
+
+            ArrayList<MusicInfo> infos = new ArrayList<>();
+            infos.add(info1);
+            infos.add(info2);
+
+            return infos;
         } else {
             return null;
         }
