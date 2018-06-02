@@ -1,0 +1,50 @@
+version: '3'
+services:
+  server:
+    build: server
+    image: ts/server
+    restart: always
+    ports:
+      - 14567:14567
+    volumes:
+      - /opt/hackdata:/hackdata
+    networks:
+      - my-network
+  speech2txt:
+    build: speech2txt
+    image: ts/speech2txt
+    restart: always
+    ports:
+      - 14568:14568
+    volumes:
+      - /opt/hackdata:/hackdata
+    networks:
+      - my-network
+  txt2speech:
+    build: txt2speech
+    image: ts/txt2speech
+    restart: always
+    ports:
+      - 14569:14569
+    volumes:
+      - /opt/hackdata:/hackdata
+    networks:
+      - my-network
+  fudanse:
+    build: fudanse
+    image: ts/fudanse
+    restart: always
+    ports:
+      - 80:8080
+    networks:
+       - my-network
+
+networks:
+  my-network:
+    # driver: overlay
+    driver: bridge
+
+
+
+
+

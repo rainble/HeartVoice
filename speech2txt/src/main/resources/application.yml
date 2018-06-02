@@ -1,0 +1,13 @@
+# HTTP Server
+server:
+  port: 14568  # HTTP (Tomcat) port
+
+spring:
+  application:
+    name: speech2txt
+  http:
+    multipart:
+      maxFileSize: 20Mb
+      maxRequestSize: 20Mb
+
+

@@ -1,0 +1,11 @@
+# HTTP Server
+server:
+  port: 14569  # HTTP (Tomcat) port
+
+spring:
+  application:
+    name: txt2speech
+  http:
+    multipart:
+      maxFileSize: 20Mb
+      maxRequestSize: 20Mb

@@ -1,0 +1,19 @@
+# HTTP Server
+server:
+  port: 14567  # HTTP (Tomcat) port
+
+spring:
+  application:
+    name: server
+  http:
+    multipart:
+      maxFileSize: 20Mb
+      maxRequestSize: 20Mb
+  data:
+    mongodb:
+      host: server-mongo
+#      username: user
+#      password: ${MONGODB_PASSWORD}
+      database: ts
+      port: 27017
+
