@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/sadasda.iml" filepath="$PROJECT_DIR$/sadasda.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/sjtuservice.iml" filepath="$PROJECT_DIR$/sjtuservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/speech2txt/speech2txt.iml" filepath="$PROJECT_DIR$/speech2txt/speech2txt.iml" />
